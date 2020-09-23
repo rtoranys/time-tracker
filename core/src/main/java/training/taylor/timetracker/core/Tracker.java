@@ -8,7 +8,7 @@ import java.util.List;
 
 @Component
 public class Tracker {
-    @Autowired
+
     private List<TimeEntry> entries;
 
     public void add(final TimeEntry entry) {
